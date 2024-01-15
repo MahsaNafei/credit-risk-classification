@@ -51,3 +51,15 @@ Throughout the analysis, essential metrics such as balanced accuracy, precision,
 ### Summary
 
 Both machine learning models performed exceptionally well, with high precision, recall, and F1-scores. The logistic regression model trained with oversampled data demonstrated slightly improved performance, achieving a balanced accuracy score of 1.00 and perfect precision and recall for label 0. Considering the significance of correctly identifying high-risk loans (label 1), the model's enhanced performance with oversampled data makes it the preferred choice. The balanced accuracy score of 1.00 indicates a near-perfect classification, making it suitable for predicting loan health status across the entire dataset.
+
+### Data Source
+
+- The lending data for this analysis was sourced from the 'Resources' folder, specifically the 'lending_data.csv' file.
+- The dataset includes financial information relevant to loan statuses, with the 'loan_status' column indicating healthy (0) or high-risk (1) loans.
+- The raw data file is accessible via the provided relative path: `Resources/lending_data.csv`.
+
+### Instructions
+
+1. Ensure that the necessary Python libraries, including Pandas, NumPy, and scikit-learn, are installed in your Python environment.
+2. Open the Jupyter Notebook (`loan_status_prediction.ipynb`) in your local development environment or preferred platform supporting Jupyter Notebooks.
+3. Execute the notebook cells sequentially to perform data exploration, model training, and evaluation.
